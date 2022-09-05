@@ -1,0 +1,25 @@
+{
+# 公众号配置
+# 公众号appId
+"app_id": "wx8eff321f182224ff",
+# 公众号appSecret
+"app_secret": "9da1dbd51a9b153d69cad7c622abd4a4",
+# 模板消息id
+"template_id": "ht0ms_44_rlpEm8xvFv6pMJ6l30Gej2P4k6ljblS2vs",
+# 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
+"user": ["oOvRc5vH7zxZQo5OPaFjRwu9o8pM,oOvRc5hGz8mjBPTJn3vHT358ppsE"],
+ 
+# 信息配置
+# 和风天气apikey
+"weather_key": "e1d52228d0774cdd844d9ea896c592e7",
+# 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
+"region": "北京",
+# 生日1，修改名字为对应需要显示的名字，如果生日为农历，在最前面加上r即可
+"birthday1": {"name": "倩倩", "birthday": "1991-01-05"},
+# 在一起的日子，格式同上，暂不不支持农历
+"love_date": "2021-12-15",
+# 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
+"note_ch": "每事浅尝辄止，事事都告无成",
+# 金句英文
+"note_en": "A little of every thing is nothing in the main"
+}
